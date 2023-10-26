@@ -1,0 +1,39 @@
+.cuisine-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cuisine-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.cuisine-icon {
+    font-size: 36px;
+    color: rgb(65, 161, 65);
+}
+
+.cuisine-list li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cuisine-list li a:hover {
+    color: #c7c9c7;
+}
+
+.cuisine-list li a.active {
+    color: #c7c9c7;
+}
