@@ -1,0 +1,46 @@
+
+.fridge-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fridge-form-title{
+    color: rgb(28, 31, 28);
+    text-align: center;
+}
+
+.fridge-form-subtitle{
+    color: rgb(28, 31, 28);
+    font-size: 20px;
+}
+
+.fridge-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.fridge-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+.fridge-form button {
+    margin-top: 25px;
+}
+
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    .fridge-form {
+        width: 90%;
+    }
+}
