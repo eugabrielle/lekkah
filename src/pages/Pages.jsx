@@ -6,7 +6,8 @@ import FridgeRecipes from "./FridgeRecipes";
 import SignIn from '../components/SignIn';
 import SignUp from '../components/SignUp';
 import Recipe from './Recipe' ;
-import Dashboard from "./Dashboard.jsx";
+import Dashboard from './Dashboard';
+import ProtectedRoute from '../components/ProtectedRoute';
 
 function Pages() {
     return (
@@ -18,7 +19,7 @@ function Pages() {
             <Route path="/recipe/:recipeId" element={<Recipe />} />
             <Route path="/login" element={<SignIn />} />
             <Route path="/signup" element={<SignUp />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
         </Routes>
     )
 }
