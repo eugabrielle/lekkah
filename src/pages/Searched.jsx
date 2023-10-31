@@ -5,7 +5,7 @@ import RecipeCard from '../components/RecipeCard';
 
 const Searched = () => {
     const { search } = useParams()
-    const [searchedRecipes, setSeachedRecipes] = useState([])
+    const [searchedRecipes, setSearchedRecipes] = useState([])
     const [error, setError] = useState(null)
 
     useEffect(() => {
@@ -21,7 +21,7 @@ const Searched = () => {
                     setError("No recipes found for this search.")
                 } else {
                     setError(null)
-                    setSeachedRecipes(response.data.results)
+                    setSearchedRecipes(response.data.results)
                 }
             } catch (error) {
                 console.error("Error getting recipes:", error)

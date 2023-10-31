@@ -24,7 +24,7 @@ en biedt handige zoek- en filtermogelijkheden om snel het gewenste recept te vin
 - Blader door een uitgebreide verzameling van recepten.
 - Zoek specifieke recept door gebruik te maken van de zoekbalk.
 - Filter recepten op ingrediënten.
-- Filter recepten op keuken types.
+- Filter recepten op keuken.
 - Bekijk gedetailleerde receptinformatie, inclusief ingrediëntenlijst en bereidingsinstructies.
 - Login en maak een boodschappenlijst met de nodige ingrediënten.
 - Eenvoudig te gebruiken met een vrolijke gebruikersinterface.
@@ -35,13 +35,14 @@ en biedt handige zoek- en filtermogelijkheden om snel het gewenste recept te vin
 
 - [Node.js](https://nodejs.org/) - Laatste versie
 - [npm](https://www.npmjs.com/) - Wordt geïnstalleerd met Node.js
-- [Firebase](https://console.firebase.google.com/) - Voor de receptendatabase
+- [Spoonacular](https://spoonacular.com/) - Receptendatabase
+- [Firebase](https://console.firebase.google.com/) - Voor de boodschappenlijst en Authenticatie
 
 ### Stappen
 
 1. Clone het GitHub-project:
    ```bash
-   git clone https://github.com/eugabrielle/lekkah
+   git clone https://github.com/eugabrielle/lekkah.git
 2. Navigeer naar het projectdirectory:
    ```bash
    cd lekkah
@@ -50,10 +51,11 @@ en biedt handige zoek- en filtermogelijkheden om snel het gewenste recept te vin
    ```bash
    npm install
    ```
-4. Vul de .env file <br />
-   In de .env.dist is te zien welke variabelen nodig zijn. Voor de docent die mijn werk gaat nakijken, zijn de waardes
+4. Vul de .env file: <br />
+   In de hoofdmap moet een bestand worden aangemaakt genaamd '.env'. In dit bestand kan de content van '.env.dist' 
+   worden gekopieerd. Voor de docent die mijn werk gaat nakijken, zijn de waardes
    te vinden in mijn verantwoordingsdocument. Als je geen docent bent kun je je persoonlijke waardes invullen.
-5. Starten van applicatie
+5. Starten van applicatie:
    ```bash
    npm run dev
    ```

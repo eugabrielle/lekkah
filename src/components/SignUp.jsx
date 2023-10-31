@@ -45,7 +45,7 @@ const SignUp = () => {
                     Sign Up
                 </button>
 
-                <p className="correct-link" onClick={() => navigate("/login")}>Already have an account? Log in</p>
+                <p className="correct-link" onClick={() => navigate("/login")}>Already have an account? Sign in</p>
             </form>
         </div>
     )
