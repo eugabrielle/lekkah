@@ -37,8 +37,34 @@ en biedt handige zoek- en filtermogelijkheden om snel het gewenste recept te vin
 - [npm](https://www.npmjs.com/) - Wordt geïnstalleerd met Node.js
 - [Spoonacular](https://spoonacular.com/) - Receptendatabase
 - [Firebase](https://console.firebase.google.com/) - Voor de boodschappenlijst en Authenticatie
+- [IDE](https://code.visualstudio.com/Download) - Visual Studio Code (voorbeeld)
 
 ### Stappen
+
+#### Eerste manier
+
+1. Ga naar het GitHub-project:
+   ```bash
+   https://github.com/eugabrielle/lekkah
+   ```
+2. Download de projectbestanden: <br>
+Bij Code kun je de zipfile van het project downloaden. 
+3. Pak de zipfile uit op bij een gekozen locatie
+4. Open de uitgepakte files in de IDE
+5. Vul de .env file: <br />
+   In de hoofdmap moet een bestand worden aangemaakt genaamd '.env'. In dit bestand kan de content van '.env.dist'
+   worden gekopieerd. Voor de docent die mijn werk gaat nakijken, zijn de waardes
+   te vinden in mijn verantwoordingsdocument. Als je geen docent bent kun je je persoonlijke waardes invullen.
+6. Installeer de afhankelijkheden:
+   ```bash
+   npm install
+7. Starten van applicatie:
+   ```bash
+   npm run dev
+8. De app zal beschikbaar zijn op `http://localhost:5173`in je webbrowser.
+
+#### Tweede manier
+
 
 1. Clone het GitHub-project:
    ```bash
@@ -72,8 +98,13 @@ goed gecheckt en verwijdert indien nodig.
 7. De ingrediënten in de boodschappenlijst worden opgeslagen je kan deze dus altijd benaderen.
 
 ### Standaard gebruikers
-Om bij een voorbeeld boodschappenlijst te komen kan je deze inloggegevens gebruiken. <br />
+Om bij voorbeeld boodschappenlijst te komen kan je deze inloggegevens gebruiken. 
+
 **Email:** user1@email.com <br />
-**Wachtwoord:** Password1
+**Wachtwoord:** Password1 
+
+**Email:** user2@email.com <br />
+**Wachtwoord:** Password2 
+
 
 
