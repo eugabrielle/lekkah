@@ -2,7 +2,7 @@
 
 ![Homepage picture](src/assets/Homepage.png)
 
-Lekkah is een eenvoudige website waarmee gebruikers recepten kunnen zoeken en ontdekken. Het is bedoeld personen 
+Lekkah is een eenvoudige website waarmee gebruikers recepten kunnen zoeken en ontdekken. Het is bedoeld om personen 
 te helpen bij het vinden van inspirerende recepten en maaltijdideeën.
 
 ## Inhoudsopgave
@@ -14,7 +14,8 @@ te helpen bij het vinden van inspirerende recepten en maaltijdideeën.
 
 ## Inleiding
 
-Lekkah is ontwikkeld als eindopdracht voor de leerlijn Front-end van Hogeschool Novi. De website is gemaakt om personen 
+Weet jij ook nooit wat je moet koken? Lijkt het alsof jouw creativiteit en besluitvaardigheid rond etenstijd ook 
+ineens verdwenen is? Lekkah is de oplossing hiervoor. De website is gemaakt om personen 
 te helpen bij het vinden van recepten en maaltijdideeën. De app maakt gebruik van een receptendatabase genaamd Spoonacular
 en biedt handige zoek- en filtermogelijkheden om snel het gewenste recept te vinden. 
 
@@ -32,7 +33,7 @@ en biedt handige zoek- en filtermogelijkheden om snel het gewenste recept te vin
 
 ### Vereisten
 
-- [Node.js](https://nodejs.org/) - Versie 14 of hoger
+- [Node.js](https://nodejs.org/) - Laatste versie
 - [npm](https://www.npmjs.com/) - Wordt geïnstalleerd met Node.js
 - [Firebase](https://console.firebase.google.com/) - Voor de receptendatabase
 
@@ -51,7 +52,7 @@ en biedt handige zoek- en filtermogelijkheden om snel het gewenste recept te vin
    ```
 4. Vul de .env file <br />
    In de .env.dist is te zien welke variabelen nodig zijn. Voor de docent die mijn werk gaat nakijken, zijn de waardes
-   te vinden in mijn verantwoordingsdocument. Als je geen docent bent kun je je eigen waardes invullen.
+   te vinden in mijn verantwoordingsdocument. Als je geen docent bent kun je je persoonlijke waardes invullen.
 5. Starten van applicatie
    ```bash
    npm run dev
@@ -59,12 +60,14 @@ en biedt handige zoek- en filtermogelijkheden om snel het gewenste recept te vin
 6. De app zal beschikbaar zijn op `http://localhost:5173`in je webbrowser.
    
 ### Gebruik
-1. Open de app in je webbrowser.
-2. Gebruik de zoekbalk om recepten te zoeken op basis van een trefwoord.
-3. Druk op de beschikbare keuken types en bekijk de recepten die hierbij horen.
-4. Klik op een recept om de details te bekijken.
-5. Druk op de koelkast icoon in de navigatiebalk en zoek recepten op basis van ingrediënten die je over hebt.
-6. Login of maak een account aan om jouw boodschappenlijst samen te stellen. 
+1. Open de app in je webbrowser en browse door alle beschikbare recepten dat de website aanbied.
+2. Gebruik de zoekbalk om een specifiek recept te vinden.
+3. Druk op een beschikbaar keuken en bekijk  recepten die hierbij horen.
+4. Om het volledige recept te zien, druk op de receptkaart.
+5. Druk op de koelkast icoon in de navigatiebalk en zoek recepten op basis van ingrediënten die je over hebt in de koelkast.
+6. Login of maak een account aan om jouw boodschappenlijst samen te stellen. Ingrediënten kan worden toegevoegd, 
+goed gecheckt en verwijdert indien nodig.
+7. De ingrediënten in de boodschappenlijst worden opgeslagen je kan deze dus altijd benaderen.
 
 ### Standaard gebruikers
 Om bij een voorbeeld boodschappenlijst te komen kan je deze inloggegevens gebruiken. <br />
