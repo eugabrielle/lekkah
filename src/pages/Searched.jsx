@@ -11,8 +11,10 @@ const Searched = () => {
     useEffect(() => {
         const fetchSearched = async (search) => {
             try {
+                const randomOffset = Math.floor(Math.random() * 20)
+
                 const response = await axios.get(
-                    `https://api.spoonacular.com/recipes/complexSearch?apiKey=${import.meta.env.VITE_SPOONACULAR_API_KEY}&query=${search}&number=8`
+                    `https://api.spoonacular.com/recipes/complexSearch?apiKey=${import.meta.env.VITE_SPOONACULAR_API_KEY}&query=${search}&number=8&offset=${randomOffset}`
                 )
 
                 if (response.data.results.length === 0) {

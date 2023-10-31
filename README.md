@@ -1,6 +1,6 @@
 # Lekkah - Recepten zoekapplicatie
 
-![Homepage picture](img_1.png)
+![Homepage picture](src/assets/Homepage.png)
 
 Lekkah is een eenvoudige website waarmee gebruikers recepten kunnen zoeken en ontdekken. Het is bedoeld personen 
 te helpen bij het vinden van inspirerende recepten en maaltijdideeën.
